@@ -25,7 +25,8 @@ Deixei minha API KEY dispnível no código para poupar o senhor do trabalho de g
   `pip install "fastapi[standard]"`
   `pip install requests`
 
-Para rodar o servidor use o comando `fastapi dev main.py` após se certificar de estar dentro do ambiente virtual `.venv`. O servidor será startado na porta **8000**
+Para rodar o servidor use o comando `fastapi dev main.py` após se _certificar de estar dentro de um ambiente virtual python_ e instalar as dependências listadas acima dentro do ambiente virtual.
+O servidor será startado na porta **8000**
 Esta é uma <span style="color:#22c3ff;font-weight:bold">API REST</span> que conta com uma rota para buscar as seguintes informações por **cidade**:
 
 - Temperatura
